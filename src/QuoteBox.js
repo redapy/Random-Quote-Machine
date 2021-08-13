@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { motion } from "framer-motion";
 
 
 const QuoteBox = () => {
@@ -45,7 +46,11 @@ const QuoteBox = () => {
 
     return ( 
         <div style={{backgroundColor: color}} className="wrapper">
-            <div id="quote-box">
+            <motion.div id="quote-box"
+             initial={{x: '100vw'}}
+             animate={{x:0}}
+             transition={{delay: 0.5, type: 'tween', duration:2}}
+            >
                 {isPending && <div>Loading...</div>}
                 <h1 style={{color: color}} id="text">{quote.text}</h1>
                 <p id="author">-by {quote.author}</p>
@@ -56,9 +61,17 @@ const QuoteBox = () => {
                     target="_blank">
                     <i class="fab fa-2x fa-twitter"> Tweet it</i>
                     </a>
-                    <button style={{backgroundColor: color}} id="new-quote" onClick={handleClick} >New Quote</button>
+                    <motion.button style={{backgroundColor: color}} id="new-quote" onClick={handleClick} 
+                     whileHover={{ 
+                        scale: 1.2, 
+                        textShadow: "0px 0px 8px rgb(255,255,255)",
+                        boxShadow: "0px 0px 8px rgb(255,255,255)",
+                      }}
+                    >
+                    New Quote
+                    </motion.button>
                 </div>
-            </div>
+            </motion.div>
         </div>
      );
 }
