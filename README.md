@@ -4,4 +4,4 @@ uses of framer motion to add some animation at the first render and also for but
 ## The API used on this app
 https://type.fit/api/quotes
 ## Installation
-To run this app locally please reffer to [react-app](docs/react-app.md)
+To run this app locally please reffer to [react-app](/react-app.md)
