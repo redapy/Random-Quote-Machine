@@ -5,3 +5,5 @@ uses of framer motion to add some animation at the first render and also for but
 https://type.fit/api/quotes
 ## Installation
 To run this app locally please reffer to [react-app](/react-app.md)
+## Try it !!
+https://redapy.github.io/random-quote-machine/
