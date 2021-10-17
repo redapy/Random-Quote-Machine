@@ -8,6 +8,6 @@ https://type.fit/api/quotes
 ## Installation
 - First use `npm install` to install all the dependencies.
 - then start the devolopement server  `npm start`.
-- for more information  please reffer to [react-app](/react-app.md)
+- for more information  please refer to [react-app](/react-app.md)
 ## Try it !!
 https://redapy.github.io/random-quote-machine/
