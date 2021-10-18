@@ -7,7 +7,7 @@ Animate how the quotes changing the page ( random animation everytime)
 https://type.fit/api/quotes
 ## Installation
 - First, use `npm install` to install all the dependencies.
-- then start the devolopement server  `npm start`.
+- then start the devolopment server  `npm start`.
 - for more information  please refer to [react-app](/react-app.md)
 ## Try it !!
 https://redapy.github.io/random-quote-machine/
