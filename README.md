@@ -6,7 +6,7 @@ Animate how the quotes changing the page ( random animation everytime)
 ## The API used on this app
 https://type.fit/api/quotes
 ## Installation
-- First use `npm install` to install all the dependencies.
+- First, use `npm install` to install all the dependencies.
 - then start the devolopement server  `npm start`.
 - for more information  please refer to [react-app](/react-app.md)
 ## Try it !!
